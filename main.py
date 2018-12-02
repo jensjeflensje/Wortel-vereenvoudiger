@@ -36,4 +36,4 @@ if __name__ == "__main__":
         vierkantsgetallen.append(getal ** 2)
     vierkantsgetallen.reverse()
     print(vierkantsgetallen)
-    app.run(port=10000, host="0.0.0.0", debug=True, threaded=True)
+    app.run(port=10000, host="0.0.0.0", threaded=True)
